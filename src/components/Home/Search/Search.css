@@ -1,0 +1,35 @@
+input {
+    width: 320px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #dedee0;
+    box-shadow: 3px 3px 6px #5a5a5a,-3px -3px 6px #5c5e5f;
+    border: none;
+    outline: none;
+  }
+  input::placeholder {
+    color: white;
+  }
+  i {
+    color: black;
+    background: #dedee0;
+    box-shadow: 3px 3px 6px #5a5a5a,-3px -3px 6px #5c5e5f;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+  }
+  @media (max-width: 768px) {
+    input {
+      width: 120px;
+      height: 40px;
+      margin-left: 10px;
+    }
+    button {
+      width: 100px;
+    }
+  }
