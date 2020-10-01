@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './home.css'
+// import './home.css'
 import Search from '../../../components/Home/Search/Search'
 import Sort from '../../../components/Home/Sort/Sort'
 import Card from '../../../components/Home/Card/Card'
@@ -82,7 +82,6 @@ class Home extends Component {
             <Card />
           </article>
           <Pagination />
-          {/* <Notif /> */}
         </div>
       </main>
     )

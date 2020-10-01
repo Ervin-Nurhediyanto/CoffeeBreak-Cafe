@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Main from '../page/index.jsx'
+import Main from '../page/main.jsx'
 // import Home from '../page/Main/Home/home'
 // import Home from '../page/Home'
 // import About from '../page/About'
@@ -13,12 +13,12 @@ function Router () {
           <Main />
           {/* <Home /> */}
         </Route>
-        <Route path='/about'>
-          {/* <About /> */}
-        </Route>
-        <Route path='/todo'>
-          {/* <Todo /> */}
-        </Route>
+        {/* <Route path='/about'> */}
+        {/* <About /> */}
+        {/* </Route> */}
+        {/* <Route path='/todo'> */}
+        {/* <Todo /> */}
+        {/* </Route> */}
       </Switch>
     </BrowserRouter>
   )
